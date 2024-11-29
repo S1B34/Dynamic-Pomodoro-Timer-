@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>s1b34 Pomodoro Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <h1>s1b34 Pomodoro Timer</h1>
+        </header>
+        <div class="timer-section">
+            <img src="https://custom-doodle.com/wp-content/uploads/doodle/bongo-cat-pixel/bongo-cat-pixel-doodle.gif" alt="Pomodoro GIF" class="pomodoro-gif">
+            <div id="timer-display" class="timer">25:00</div>
+            <div class="buttons">
+                <button class="button start-button">Start</button>
+                <button class="button stop-button">Stop</button>
+                <button class="button reset-button">Reset</button>
+            </div>
+        </div>
+        <audio id="alarm-sound" src="alarm.wav" type="audio/mp3"></audio>
+        <div class="settings-panel">
+            <button class="settings-toggle">Settings</button>
+            <div class="settings-content">
+                <label for="work-duration">Work Duration (minutes):</label>
+                <input type="number" id="work-duration" value="25">
+                <br>
+                <label for="break-duration">Break Duration (minutes):</label>
+                <input type="number" id="break-duration" value="5">
+            </div>
+        </div>
+        <footer>
+            <p>Designed with ♥ by s1b34</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
