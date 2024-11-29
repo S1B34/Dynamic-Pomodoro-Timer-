@@ -1,4 +1,5 @@
 Dynamic Pomodoro Timer ⏰
+
 A visually appealing and customizable Pomodoro Timer built with HTML, CSS, and JavaScript. Designed to help you manage your work and break sessions efficiently while staying motivated with animations and sound alerts.
 
 Features 🌟
